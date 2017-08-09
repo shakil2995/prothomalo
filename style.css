@@ -61,5 +61,10 @@ color:white
  #footer{clear:both}
  #footer p{text-align:center; padding-top:30px;position:relative;}
  h1{font-weight:bold; color:green;}
+<<<<<<< HEAD
  #indexcontent{border:1px solid none ; line-height: 800px; }
  
+=======
+ 
+#container{border:1px solid red ; line-height: 1000px;}
+>>>>>>> 504d8069ff4850ad504fe8e0acf30ac36791143a
