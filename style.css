@@ -1,3 +1,4 @@
+																	/* comments */ 
 
 body,html{
     margin: 0;padding-top:0px ;background-color:white;line-height:1.8em;
@@ -15,7 +16,7 @@ body,html{
  height:60px;
 
  }
-
+																	/* navigation */ 
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -42,13 +43,8 @@ ul.topnav li a.active {background-color: green;}
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 300px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-	#position{position:static;width:auto;}
-	
-	
-}
+																	/* content */ 
+
 
 #content{padding:0px 80px 0px 80px}
 h2{text-align:center;}
@@ -64,7 +60,8 @@ h2{text-align:center;}
    .pro{float: left;
    padding: 0px 40px 40px 0px;}
    h1{text-align:center; padding:10px 0px 0px 0px}
-   
+   																	/* footer */ 
+
    #footer{background-color:#4CAF50;
  display:float;
  margin-left:0%;
@@ -74,6 +71,8 @@ color:white
  #footer{clear:both}
  #footer p{text-align:center; padding-top:30px;position:relative;}
  h1{font-weight:bold;text-transform:uppercase; color:green;}
+
+ 																	/* scroll effect */ 
 
 
 .pimg1, .pimg2, .pimg3{
@@ -136,3 +135,50 @@ color:#ddd;}
 }
 
 .newsimg{float:left;width:808px;padding:20px;}
+
+
+																	/* media query */ 
+
+@media screen and (max-width: 720px){
+    ul.topnav li.right, 
+    ul.topnav li {float: ;}
+	#position{position:static;width:auto;}
+	
+	  .ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:16px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:6px;
+}
+}
+
+@media screen and (max-width: 359px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+	#position{position:static;width:auto;}
+	
+	  .ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:12px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+}
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:4px;
+}
+}
